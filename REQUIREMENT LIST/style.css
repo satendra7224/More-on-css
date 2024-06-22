@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list{
+    padding: 10px;
+    border: 2px solid black;
+}
+.list > h1{
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+ol{
+    list-style-type: lower-roman;
+}
+li{
+    margin-top: 5px;
+}

@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+section > img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-size: cover;
+}
+

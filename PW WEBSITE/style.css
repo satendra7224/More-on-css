@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+}
+nav{
+    width: 85%;
+    margin-left: 7.5%;
+}
+.navbar-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+.navbar-1 > img{
+    height:55px;
+    width: 145px;
+    background-size: cover;
+}
+.navbar-1 > input{
+    width: 70%;
+    height: 40px;
+    border: 1px solid rgba(198, 198, 198, 0.7);
+    border-radius: 5px;
+    font-size: 1.1rem;
+    padding: 0px 20px;
+} 
+.navbar-1 > input:focus{
+    outline: none;
+}
+::placeholder {
+    font-size: 1.1rem;
+}
+.account{
+    height: 40px;
+    width: 40px;
+}
+.account > img{
+    height: 40px;
+    width: 40px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+.navbar-2 > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5px;
+}
+.navbar-2 > ul > li {
+    list-style-type: none;
+}
+.navbar-2 > ul > li > a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 300;
+    color: black;
+}
+  /*  About section */
+#about{
+    width: 85%;
+    margin-left: 7.5%;
+}
+.about-heading{
+    margin-top: 70px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.about-para{
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgb(62, 62, 62);
+}
+.about-img{
+    height: 550px;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+ /*mission - section */
+
+.mission-heading{
+    padding: 40px 40px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+#mission{
+   background-color: #EFF6FF;
+   margin-top: 70px;
+}
+.mission-container{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    margin-left: 7.5%;
+    height: 400px;
+}
+.mission-left-container{
+    flex-basis: 60%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.mission-para{
+    color: rgb(73, 73, 73);
+}
+.mission-right-container{
+    flex-basis: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mission-right-container > img{
+    height: 400px;
+    width: 400px;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+/* SERVICE SECTION   */
+#services{
+    width: 85%;
+    margin-left: 7.5%;
+}
+.service-heading{
+    margin-top: 70px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.service-main-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10%;
+}
+.service-container{
+    display: flex;
+    align-items: center;
+    height: 120px;
+    width: 45%;
+    gap: 5%;
+    margin-top: 30px;
+}
+.service-container-img{
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    border-radius: 10px;
+}
+.service-container-discription{
+    height: 120px;
+    width: 450px;
+}
+.service-discription-heading{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.service-discription-para{
+    font-size: 14.5px;
+    color: rgb(90, 90, 90);
+    margin-top: 10px;
+}
+/*FOOTER  SECTION*/
+footer{
+    margin-top: 70px;
+    background-color: #212121;
+}
+.footer-container{
+    width: 85%;
+    margin-left: 7.5%;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-info{
+    flex-basis: 28%;
+    margin-top: 50px;
+}
+.company-info{
+    flex-basis: 28%;
+    margin-top: 50px;
+}
+.product-info{
+    flex-basis: 28%;
+    margin-top: 50px;
+}
+.contact-info-logo{
+    height:55px;
+    width: 145px;
+    background-size: cover;
+}
+.email{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.email > img{
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    padding: 5px;
+}
+.email > h3{
+    font-size: 1rem;
+    color: white;
+    font-weight: 300;
+}
+.phone{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+.phone > img{
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    padding: 5px;
+}
+.phone > h3{
+    font-size: 1rem;
+    color: white;
+    font-weight: 300;
+}
+.social-media-icon{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px;
+}
+.social-media-icon > img{
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+}
+.iso-logo{
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.company-info-heading{
+    color: white;
+    height: 40px;
+    font-size: 1.5rem;
+}
+.line{
+    height: 4px;
+    width: 80%;
+    background-color: #E97862;
+    border-radius: 5px;
+    outline: none;
+}
+.company{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.company > a{
+    text-decoration: none;
+    color: white;
+    width: 50%;
+    margin-top: 25px;
+}
+.product-info-heading{
+    color: white;
+    height: 40px;
+    font-size: 1.5rem;
+}
+.products{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+.products > a{
+    text-decoration: none;
+    color: white;
+    width: 50%;
+    margin-top: 25px;
+}
